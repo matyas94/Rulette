@@ -336,4 +336,4 @@ elif (szam == "[1-18]" or szam == "[19-36]" or szam == "[EVEN]" or szam == "[ODD
 elif (szam == "[1ST 12]" or szam == "[2ND 12]" or szam == "[3RD 12]" or szam == "[1ST COL]" or szam == "[2ND COL]" or szam == "[3RD COL]") and (nyero in rr43 or nyero in rr44 or nyero in rr45 or nyero in rr46 or nyero in rr47 or nyero in rr48):
     egyenleg += (bet*3)
 print(egyenleg)
-print(win)
+
