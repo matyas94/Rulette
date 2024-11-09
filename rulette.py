@@ -112,4 +112,104 @@ if help == "help":
 [3RD COL]: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36""")
 
 
-input("Hova szeretnél tenni?")
+szam = input("Hova szeretnél tenni?")
+if 1 == 1:
+    if szam == 0:
+        r0 = "X"
+    elif szam == 1:
+        r1 = "X"
+    elif szam == 2:
+        r2 = "X"
+    elif szam == 3:
+        r3 = "X"
+    elif szam == 4:
+        r4 = "X"
+    elif szam == 5:
+        r5 = "X"
+    elif szam == 6:
+        r6 = "X"
+    elif szam == 7:
+        r7 = "X"
+    elif szam == 8:
+        r8 = "X"
+    elif szam == 9:
+        r9 = "X"
+    elif szam == 10:
+        r10 = "X"
+    elif szam == 11:
+        r11 = "X"
+    elif szam == 12:
+        r12 = "X"
+    elif szam == 13:
+        r13 = "X"
+    elif szam == 14:
+        r14 = "X"
+    elif szam == 15:
+        r15 = "X"
+    elif szam == 16:
+        r16 = "X"
+    elif szam == 17:
+        r17 = "X"
+    elif szam == 18:
+        r18 = "X"
+    elif szam == 19:
+        r19 = "X"
+    elif szam == 20:
+        r20 = "X"
+    elif szam == 21:
+        r21 = "X"
+    elif szam == 22:
+        r22 = "X"
+    elif szam == 23:
+        r23 = "X"
+    elif szam == 24:
+        r24 = "X"
+    elif szam == 25:
+        r25 = "X"
+    elif szam == 26:
+        r26 = "X"
+    elif szam == 27:
+        r27 = "X"
+    elif szam == 28:
+        r28 = "X"
+    elif szam == 29:
+        r29 = "X"
+    elif szam == 30:
+        r30 = "X"
+    elif szam == 31:
+        r31 = "X"
+    elif szam == 32:
+        r32 = "X"
+    elif szam == 33:
+        r33 = "X"
+    elif szam == 34:
+        r34 = "X"
+    elif szam == 35:
+        r35 = "X"
+    elif szam == 36:
+        r36 = "X"
+    elif szam == 37:
+        r37 = "X"
+    elif szam == 38:
+        r38 = "X"
+    elif szam == 39:
+        r39 = "X"
+    elif szam == 40:
+        r40 = "X"
+    elif szam == 41:
+        r41 = "X"
+    elif szam == 42:
+        r42 = "X"
+    elif szam == 43:
+        r43 = "X"
+    elif szam == 44:
+        r44 = "X"
+    elif szam == 45:
+        r45 = "X"
+    elif szam == 46:
+        r46 = "X"
+    elif szam == 47:
+        r47 = "X"
+    elif szam == 48:
+        r48 = "X"
+
