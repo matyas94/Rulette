@@ -2,6 +2,18 @@ import random
 import os
 import time
 
+
+egyenleg = 20
+print(egyenleg)
+bet = int(input("Mennyit szeretnél rakni? "))
+
+while bet > egyenleg:
+    print("Nem tudsz ennyit rakni.")
+    bet = int(input("Mennyit szeretnél rakni? "))
+
+egyenleg -= bet
+
+
 if 1 == 1:
     r0 = "0"
     r1 = "1"
@@ -163,8 +175,8 @@ if help == "help":
 [2ND COL]: 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35
 [3RD COL]: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36""")
 
-
-szam = int(input("Hova szeretnél tenni?"))
+win = 29
+szam = input("Hova szeretnél tenni?")
 if 1 == 1:
     if szam == 0:
         r0 = "X"
@@ -277,44 +289,51 @@ if 1 == 1:
     elif szam == 36:
         r36 = "X"
         win = 36
-    elif szam == 37:
+    elif szam == "[1-18]":
         r37 = "X"
         win = 37
-    elif szam == 38:
+    elif szam == "[19-36]":
         r38 = "X"
         win = 38
-    elif szam == 39:
+    elif szam == "[EVEN]":
         r39 = "X"
         win = 39
-    elif szam == 40:
+    elif szam == "[ODD]":
         r40 = "X"
         win = 40
-    elif szam == 41:
+    elif szam == "[RED]":
         r41 = "X"
         win = 41
-    elif szam == 42:
+    elif szam == "[BLACK]":
         r42 = "X"
         win = 42
-    elif szam == 43:
+    elif szam == "[1ST 12]":
         r43 = "X"
         win = 43
-    elif szam == 44:
+    elif szam == "[2ND 12]":
         r44 = "X"
         win = 44
-    elif szam == 45:
+    elif szam == "[3RD 12]":
         r45 = "X"
         win = 45
-    elif szam == 46:
+    elif szam == "[1ST COL]":
         r46 = "X"
         win = 46
-    elif szam == 47:
+    elif szam == "[2ND COL]":
         r47 = "X"
         win = 47
-    elif szam == 48:
+    elif szam == "[3RD COL]":
         r48 = "X"
         win = 48
 
 
 nyero = random.randint(0,36)
-
-if szam ==
+print(nyero)
+if nyero == szam:
+    egyenleg += (bet*36)
+elif (szam == "[1-18]" or szam == "[19-36]" or szam == "[EVEN]" or szam == "[ODD]" or szam == "[RED]" or szam == "[BLACK]") and (nyero in rr37 or nyero in rr38 or nyero in rr39 or nyero in rr40 or nyero in rr41 or nyero in rr42):
+    egyenleg += (bet*2)
+elif (szam == "[1ST 12]" or szam == "[2ND 12]" or szam == "[3RD 12]" or szam == "[1ST COL]" or szam == "[2ND COL]" or szam == "[3RD COL]") and (nyero in rr43 or nyero in rr44 or nyero in rr45 or nyero in rr46 or nyero in rr47 or nyero in rr48):
+    egyenleg += (bet*3)
+print(egyenleg)
+print(win)
