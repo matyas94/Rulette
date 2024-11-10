@@ -1,9 +1,9 @@
 import random
 import os
 import time
-jatek = input("Mit szeretnél játszan? (xo)\n")
+jatek = input("Mit szeretnél játszan? (roulette)\n")
 ujra = "y"
-while jatek == "xo" and ujra == "y":
+while jatek == "roulette" and ujra == "y":
 
     egyenleg = 20
 
